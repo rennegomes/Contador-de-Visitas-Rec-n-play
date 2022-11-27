@@ -1,0 +1,152 @@
+/**
+* Template Name: Impact - v1.1.1
+* Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# Set main reusable colors and fonts using CSS variables
+# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+--------------------------------------------------------------*/
+/* Fonts */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Poppins", sans-serif;
+  }
+  
+  /* Colors */
+  :root {
+    --color-default: #222222;
+    --color-primary: #2b5690;
+    --color-secondary: #f85a40;
+    --color-orange: #fddfdb;
+  }
+  
+  
+  
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+ 
+  
+  /*--------------------------------------------------------------
+  # Sections & Section Header
+  --------------------------------------------------------------*/
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+    background: none;
+  }
+  
+  .sections-bg {
+    background-color: #f6f6f6;
+  }
+  
+  .section-header {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 32px;
+    font-weight: 600; /*
+    margin-bottom: 20px;
+    padding-bottom: 20px; */
+    position: relative;
+  }
+  
+  /* .section-header h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #D2008B;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  } */
+  
+  .section-header p {
+    margin-bottom: 0;
+    color: #6f6f6f;
+  }
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Our Team Section
+  --------------------------------------------------------------*/
+  .team .member {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team .member img {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .team .member .member-content {
+    padding: 0 20px 30px 20px;
+  }
+  
+  .team .member h4 {
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+  
+  .team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .team .member p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  .team .member .social {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .team .member .social a {
+    color: #a2a2a2;
+    transition: 0.3s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid #bbbbbb;
+  }
+  
+  .team .member .social a:hover {
+    color: #D2008B;
+    border-color: #D2008B;
+  }
+  
+  .team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  

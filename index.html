@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS link reference -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap-styles.css">
+
+    <!-- Icone da aba -->
+    <link rel="shortcut icon" href="./assets/Imagens/favicon-senac/favicon.ico" type="image/x-icon">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dfbf29b648.js" crossorigin="anonymous"></script>
+    
+    <title>Contador de Visitantes</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/Imagens/Contador_Visitantes_Logo-Branca.png" alt="Bootstrap" width="130px">
+                  </a>
+                  <div class="d-flex flex-row">
+                    <a class="p-2" href="https://site-geral-senacno-recnplay.netlify.app/" target="_blank">
+                      <img src="./assets/Imagens/Senac no Rec'n'Play 2022.png" width="130px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                      aria-controls="offcanvasDarkNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </div>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#caixa-texto1">Início</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contador">O Contador de Visitantes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#sobre">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://site-geral-senacno-recnplay.netlify.app/" target="_blank">Senac no Rec'n'Play 2022 - Projetos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="grid-container">
+                <div class="cx cx-1"></div>
+                <div class="cx cx-2"></div>
+                <div class="cx cx-3"></div>
+                <div class="cx cx-4"></div>
+            </div>
+        </nav>
+        
+    </header>
+    
+    <main>
+      <section>
+        <!-- Início -->
+        <section class="team">
+          <a name="caixa-texto1"></a>
+          <div class="container sobre-nos">
+            <div class="caixa-contador-geral">
+              <div class="caixa-texto1">
+                <h2>Seja Bem-vindx ao</h2>
+                <svg viewBox="0 0 3600 600" style="
+                height: 200px;" >
+                  <!-- Symbol-->
+                  <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="50%" dy=".35em">Espaço Senac</text>
+                  </symbol>
+                  <!-- Duplicate symbols-->
+                  <use class="text" xlink:href="#s-text"></use>
+                  <use class="text" xlink:href="#s-text"></use>
+                  <use class="text" xlink:href="#s-text"></use>
+                  <use class="text" xlink:href="#s-text"></use>
+                  <use class="text" xlink:href="#s-text"></use>
+                </svg>
+              </div>
+
+              <div class="caixa-textoNum">
+                <h3>Passaram por aqui</h3>
+                <ul class="c-rainbow">
+                  <div id="teste" class="c-rainbow">
+                  </div>
+                 </ul>
+              </div>
+              
+            </div>
+        </div>
+        </section>
+
+        <!-- O Contador de Visitantes -->
+        <section class="team">
+          <a name="contador"></a>
+          <div class="container sobre-nos ">
+            
+            <div class="section-header">
+              <h2>O Contador de Visitantes</h2>
+              <div class="cx cx-2"></div>
+            </div>
+            <div class="caixa-texto2">
+                <div class="col-sm-8">
+                  <!-- Carousel -->
+                  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="11"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/Imagens/Carrossel/Casa Zero (1).jpg" alt="Foto da Casa Zero" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Casa Zero (2).jpg" alt="Foto da Casa Zero" class="d-block">
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Desenvolvimento (1).jpg" alt="Grupo trabalhando" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Desenvolvimento (2).jpg" alt="Grupo trabalhando" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Protótipo (1).jpeg" alt="Grupo trabalhando" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Trabalhando (1).jpeg" alt="Grupo trabalhando" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Trabalhando (2).jpeg" alt="Grupo trabalhando" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Trabalhando (3).jpeg" alt="Protótipo" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Trabalhando (4).jpeg" alt="Protótipo" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Trabalhando (5).jpeg" alt="Protótipo" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/Imagens/Carrossel/Trabalhando (6).jpeg" alt="Protótipo" class="d-block">
+                      </div>
+                      <div class="carousel-item">
+                        <video width="340px" controls src="../assets/Imagens/Carrossel/WhatsApp Video 2022-11-04 at 20.04.55.mp4" class="d-block" height="900px" alt="Vídeo de testes" type="video/mp4" muted autoplay loop>
+                        </video>
+                        </div>
+
+                      </div>
+                      <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                    
+
+                  </div>
+                    <!-- The end slideshow/carousel -->
+                </div>
+                
+              <div class="col-sm-4">
+                <div class="texto">
+                  <p>O projeto Contador de Visitante tem o cunho e o objetivo de  estimular e mostrar o aprendizado voltado para a área de tecnologia, trabalhando com sensores e placas de arduino, tecnologias web.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sobre nós -->
+        <section class="team">
+          <div class="container sobre-nos ">
+            <div class="section-header">
+              <h2>Sobre Nós<a name="sobre"></a></h2>
+              
+              <div class="cx cx-3"></div>
+            </div>
+
+            <!-- CAIXA DA FOTO DO GRUPO -->
+            <div id="borda" class="col-md-12 d-flex ">
+              <div class="caixa-team">
+                <img id="foto-grupo" src="./assets/Imagens/Membros/Foto do Grupo (1).jpeg">
+              </div>
+            </div>
+              <div class="row gy-4">
+                
+                <!-- First Team member-->
+                <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/user.png" alt="">
+                    <h4>
+                      Caio Ferreira</h4>
+                    <span>Scrum Master/Lider Team</span>
+                    <div class="social">
+                      <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                      <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- End Team Member -->
+      
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Davi.png" alt="">
+                    <h4>Davi Freitas</h4>
+                    <span>Back-end Developer</span>
+                    <div class="social">
+                      <a href="https://github.com/daviifreitas" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/isdavifreitas/"><i class="bi bi-instagram" target="_blank"></i></a>
+                      <a href="https://www.linkedin.com/in/davi-freitas-942417215/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+      
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/David.jpeg" alt="">
+                    <h4>David Montenegro</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="https://github.com/David-es-Montenegro" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/david_m0ntenegr0/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="https://www.linkedin.com/in/david-montenegro-16825b1b5/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Elias.jpg" alt="">
+                    <h4>Elias Kevyn</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="https://github.com/KevynSantos23" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/kevyn_ss/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="http://linkedin.com/in/kevyn-santos-b4545b206" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+      
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Francyelle.png" alt="">
+                    <h4>Francyelle Azevedo</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/francyelle.30/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+    
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Gabriela.png" alt="">
+                    <h4>Gabriela Maria</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/souzagab2/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="https://www.linkedin.com/in/gabriela-souza-06a9391b1/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+    
+                <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/user.png" alt="">
+                    <h4>Geovanna Gizella</h4>
+                    <span>Front-End Developer</span>
+                    <div class="social">
+                      <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                      <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- End Team Member -->
+    
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Hugo.png" alt="">
+                    <h4>Hugo Antunes</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="https://github.com/HugoAntt" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/hugoseilant/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="https://www.linkedin.com/in/hugo-antunes-da-silva/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+      
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Izabelly.png" alt="">
+                    <h4>Izabelly Tainan</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/tainan_bella/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+    
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Lacê Renê.jpeg" alt="">
+                    <h4>Lacê Renê</h4>
+                    <span>Front-End Developer</span>
+                    <div class="social">
+                      <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="#" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+    
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Maiara.png" alt="">
+                    <h4>Maiara Evelyn</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="https://github.com/wildestmaii" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/wildestmaii/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="https://www.linkedin.com/in/wildestmaii/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+    
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Matheus.png" alt="">
+                    <h4>Matheus Santana</h4>
+                    <span>Back-End Developer</span>
+                    <div class="social">
+                      <a href="https://github.com/matheusfsantana/" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="#"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="https://www.linkedin.com/in/matheusfsantana99/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+    
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Ranyelle.png" alt="">
+                    <h4>Ranyelle dos Santos</h4>
+                    <span>Front-End Developer</span>
+                    <div class="social">
+                      <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="#" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+    
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="memberNew">
+                    <img src="./assets/Imagens/Membros/Thiago.png" alt="">
+                    <h4>Thiago Brito</h4>
+                    <span>Front-End Developer/Team Leader</span>
+                    <div class="social">
+                      <a href="https://github.com/BritoThiag0" target="_blank"><i class="bi bi-github"></i></a>
+                      <a href="https://www.instagram.com/thiagobrito03/" target="_blank"><i class="bi bi-instagram"></i></a> <!-- Perguntar se quer -->
+                      <a href="https://www.linkedin.com/in/thiago-brito-cassimiro-da-silva-a50ba214b/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div><!-- End Team Member -->
+  
+              </div>
+            <!-- </div> -->
+          </div>
+  
+        </section>
+      </section>
+    </main>
+
+    <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    
+    <div class="container-fluid">
+      
+      <div class="row gy-4">
+        <!-- Footer da faculdade-->
+        <div class="col-lg-5 col-md-12 footer-info">
+          <span class=" logo d-flex align-items-center footer-text">Faculdade Senac</span>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.instagram.com/senacpe/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/senacpe/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links" style="margin-top: 70px;">
+          <h4 class="orange-color-light">Links Utilizáveis</h4>
+          <ul>
+            <li><a href="#contador">O Contador de Visitantes</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="https://faculdadesenacpe.edu.br/" target="_blank">Site Oficial</a></li>
+            <li><a href="https://site-geral-senacno-recnplay.netlify.app/" target="_blank">Senac no Rec'n'Play</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6 footer-links" style="margin-top: 70px;">
+          <h4 class="orange-color-light">Endereço</h4>
+          <p style="opacity: 70%; margin-top: -10px;">
+            <i class="bi bi-geo-alt"></i> Rua Marquês do Pombal, 57 <br>
+            CEP 50100-170 <br>
+            Santo Amaro – Recife/PE <br>
+          </p>
+          <h4 class="orange-color-light">Telefone:</h4> <p style="opacity: 70%; margin-top: -10px;"><i class="bi bi-telephone"></i> 0800 081 1688</p>
+        </div>
+
+        <!-- Footer do rec n play -->
+        <div class="col-lg-5 col-md-12 footer-info">
+          <span class="footer-text logo d-flex align-items-center" style="border-bottom: 4px solid #D2008B;">Rec'n'Play</span>
+          <div class="social-links d-flex mt-4" >
+            <a href="https://www.instagram.com/recnplayfestival/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/rec-n-play/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/recnplay_br" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+          </div>
+      </div>
+      <div class="col-lg-2 col-6 footer-links" style="margin-top: 70px;">
+          <h4 class="orange-color-light">Endereço</h4>
+          <p style="opacity: 70%; margin-top: -10px;">
+            <i class="bi bi-geo-alt"></i> Rua do Bom Jesus, 227 <br>
+            CEP: 50030-170 <br>
+            Recife/PE <br>
+            Proximo ao Paço do Frevo
+          </p>
+          </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Faculdade Senac</span></strong>. All Rights Reserved
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </footer><!-- End Footer -->
+    
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+<script>
+  setInterval(function(){
+    $.ajax({
+      url : "https://apicountrecnplay.azurewebsites.net/register/getdata",
+      success: function(resultAsJson){
+        var amountOfVisitors = resultAsJson.amount;
+        var htmlForUpdate = '<li class="c-rainbow_layer c-rainbow_layer--white">'+amountOfVisitors+'</li>';
+        $('#teste').html(htmlForUpdate);
+      }
+    })
+  },30000)
+</script>
+
+</html>
